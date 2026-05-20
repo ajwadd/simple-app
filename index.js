@@ -29,6 +29,9 @@ app.post('/api/items', (req, res) => {
   res.status(201).json(newItem);
 });
 
+
+console.log("Test Jira");
+
 const server = app.listen(port, () => {
   console.log(`API Express démarrée sur http://localhost:${port}`);
 });
